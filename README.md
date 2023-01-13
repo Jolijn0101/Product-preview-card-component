@@ -1,10 +1,10 @@
 # Frontend Mentor - Product preview card component
 
-I made this product preview card component with the design of Fronted Mentor. [See the challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) Fronted Mentor provides Coding challenges for frontend developers.
+I made this product preview card component with the design of Fronted Mentor. [See the challenge on Frontend Mentor.](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) Fronted Mentor provides Coding challenges for frontend developers.
 
 ## The challenge
 
-The challenge was to code a product preview card that looks exactly like the given jpg files. The provided also a styleguide, images and a jpg file how the active state of the button should look like.
+The challenge was to code a product preview card that looks exactly like the given jpg files. They provided also a styleguide, images and a jpg file how the active state of the button should look like.
 
 ## Screenshots
 
