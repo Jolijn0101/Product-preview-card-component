@@ -18,4 +18,4 @@ This was a great challenge. I learned more about making someone else's design wo
 ### Links
 
 - Solution URL: [github repository](https://github.com/Jolijn0101/Product-preview-card-component)
-- Live Site URL: [github page](https://your-live-site-url.com)
+- Live Site URL: [github page](https://jolijn0101.github.io/Product-preview-card-component/)
