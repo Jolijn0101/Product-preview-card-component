@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component
 
-I made this product preview card component with the design of Fronted Mentor. [See the challenge on Frontend Mentor.](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) Fronted Mentor provides Coding challenges for frontend developers.
+I made this product preview card component with the design of Fronted Mentor. [See the challenge on Frontend Mentor.](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) Fronted Mentor provides coding challenges for frontend developers.
 
 ## The challenge
 
