@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+body {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 340px;
+  border-radius: 12px;
+  margin: calc(50vh - 319.2px) auto 10px auto;
+  overflow: hidden;
+}
+.desktop-img {
+  display: none;
+}
+.mobile-img {
+  width: 100%;
+}
+.card-content {
+  padding: 25px;
+  color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+#tag {
+  font-size: 12px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+h1 {
+  color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 10px 0;
+}
+p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+#pricetag {
+  margin-bottom: 20px;
+}
+#price {
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin-right: 10px;
+}
+#sale {
+  text-decoration: line-through;
+  vertical-align: super;
+}
+button {
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  background-color: #184131;
+}
+button span {
+  margin-left: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 580px;
+    margin: calc(50vh - 218px) auto 10px auto;
+    display: flex;
+  }
+  .mobile-img {
+    display: none;
+  }
+  .desktop-img {
+    display: block;
+  }
+  .desktop-img,
+  .card-content {
+    width: 50%;
+  }
+}
