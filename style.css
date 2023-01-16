@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2family=Montserrat:wght@500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 
+/* 1 : 16px*/
+
 body {
+  min-height: 100vh;
+  margin: 0;
   background-color: hsl(30, 38%, 92%);
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.card {
+main {
   background-color: hsl(0, 0%, 100%);
-  width: 340px;
-  border-radius: 12px;
-  margin: calc(50vh - 319.2px) auto 10px auto;
+  width: 21.3em;
+  border-radius: 0.75em;
   overflow: hidden;
 }
 .desktop-img {
@@ -22,37 +25,37 @@ body {
   width: 100%;
 }
 .card-content {
-  padding: 25px;
+  padding: 1.56em;
   color: hsl(228, 12%, 48%);
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
 #tag {
-  font-size: 12px;
-  letter-spacing: 5px;
-  margin-bottom: 5px;
+  font-size: 0.75rem;
+  letter-spacing: 0.31rem;
+  margin-bottom: 0.31em;
 }
 h1 {
   color: hsl(212, 21%, 14%);
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 32px;
-  margin: 10px 0;
+  font-size: 2rem;
+  margin: 0.63em 0;
 }
 p {
-  font-size: 16px;
-  line-height: 25px;
-  margin-bottom: 25px;
+  font-size: 1rem;
+  line-height: 1.56rem;
+  margin-bottom: 1.56em;
 }
 #pricetag {
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 #price {
   color: hsl(158, 36%, 37%);
   font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 32px;
-  margin-right: 10px;
+  font-size: 2rem;
+  margin-right: 0.63em;
 }
 #sale {
   text-decoration: line-through;
@@ -66,9 +69,9 @@ button {
   justify-content: center;
   color: hsl(0, 0%, 100%);
   border: none;
-  border-radius: 10px;
-  padding: 15px;
-  font-size: 15px;
+  border-radius: 63em;
+  padding: 1em;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
 }
@@ -77,19 +80,11 @@ button:focus {
   background-color: #184131;
 }
 button span {
-  margin-left: 10px;
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+  margin-left: 0.63em;
 }
 @media screen and (min-width: 1440px) {
-  .card {
-    width: 580px;
-    margin: calc(50vh - 218px) auto 10px auto;
+  main {
+    width: 36.3em;
     display: flex;
   }
   .mobile-img {
